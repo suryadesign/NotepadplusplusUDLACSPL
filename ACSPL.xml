@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="ACSPL" ext="prg" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00! 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">(</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">)</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">arc1 arc2 assignmark assignpeg assignpouts axisdef block bptp bptpcalc break bseg call commut connect cscreate csdestroy dc depends disable disableall disableon disp eipgetattr eipgetind1 eipgetind2 eipgettag eipsetasm else elseif enable enableall enableon encinit encread end ends  fastloop fclear follow getpegcount go goto group halt home if imm inp inshapeoff inshapeon interrupt interruptex jog kill killall lcdisable lcenable line line line loop master mpoint mptp mseg npoint nurbs on outp path pause peg_i peg_r point projection ptp pvspline read resume ret safetyconf safetygroup segment send set setpegdelay slave smove spath spdc spicfg spinject spiwrite spiwrite split sprt sprtstop sptp start startinject startpeg startspdc stop stopall stopdc stopinject stoppeg stopper stopspdc switch till track trigger unfollow usagesp wait while write xseg</Keywords>
+            <Keywords name="Keywords2">a2units acc aflags ain ainoffs ainscale amest aout apos aposfilt ast astx aunits baud bcodecfg bcodeusg bglobcfg bglobusg bofftime bontime bsrccfg bsrcusg bvarcfg bvarusg cerra cerri cerrk cerrv cfg commch commfl conid ctime dapos dcn dcom dcp dec decomp deli delk delv dispch dout e2fac e2ind e2mtbits e2offs e2stbits e2_aoffs e2_flags e2_freq e2_par_a e2_par_b e2_par_c e2_par_d e2_par_e e2_scmul e2_type ec2alerr ec2err ec2nst ec2st ec2sync ecalerr ecerr ecexterr ecextst echo ecnst ecst ecsync efac emtbits entime eoffs epos erra erri errv estbits extfac extin extout e_aoffs e_err e_err e_flags e_freq e_par_a e_par_b e_par_c e_par_d e_par_e e_scmul e_type f2acc f2pos f2vel facc fault faultsim fdef feedrf fmask followch fpos fvel fvfil gacc gateway gjerk gmot gmqu gmtype gpath gpexl gphase grtime gseg gsfree gsnap gspexl gufac gvec gvel g_01wcs g_02wcs g_03wcs g_04wcs g_05wcs g_06wcs g_07wcs g_08wcs g_09wcs g_10wcs g_11wcs g_12wcs hllrout homedef homeveli homevell hrlrout iena imask in ind isena ist jerk jitter kdec lcdc lcfrq lctfreq lctwidth lpos m2ark mark mbrkrout merr mff mflags mflagsx modulomd mpos mssync mst mstimea mstimeb mstimec nst nvel onrate out pchars pdesc pe pegque perl perr pexl pflags plines pn pname ppos pposcomp prate prfltime pst racc rjerk rmsd rmsm roffs rpos rposcomp rposdel rsnap rvel rvfil s2labits safin safini sc2coffs sc2gain sc2phase sc2soffs sccoffs scgain scphase scsoffs settle settlea settleb settlec slabits slaff slbiasa slbiasb slbiasc slchall slcnp slcoffs slcorg slcprd slcrat slcrout slcrout sldra sldraif sldrx sldzmax sldzmin sldztime slebiasa slebiasb slebiasc slebiasd slfrc slfrcd slfrcn slgcaxn slhrout slhrs slifilt sliki slikp slili slioffs sllimit sllrout slp2rout slpai slpap slpdi slpdp slpki slpkiif slpkisf slpkitf slpkp slpkpdcf slpkpif slpkpsf slpkptf slpli slpmax slpmin slprout slsdz slsff slski slskp slsmc slsout slsrl slsthall sltfwid slvai slvap slvb0dd slvb0df slvb0nd slvb0nf slvdi slvdp slvki slvkidcf slvkiif slvkisf slvkitf slvkp slvkpdcf slvkpif slvkpsf slvkptf slvli slvnatt slvnfrq slvnwid slvrat slvrout slvsof slvsofd slzff sn snap softime spirxn spist srlimit ss11time ss12time static stepf stepw stltimea stltimeb stltimec stodelay subnet sync s_dcn s_dcp s_err s_fault s_fdef s_flags s_fmask s_safin s_safini s_setup s_st targrad targrada targradb targradc tcpip tcpip2 tcpport time tpos udpport usage usagesim usgbuf usgtrace vel velbrk vr xacc xarrsize xcurcdb xcuri xcurk xcurv xrms xrmsd xrmsm xrmst xrmstd xrmstm xsacc xsegamax xsegamin xsegrmax xsegrmin xvel</Keywords>
+            <Keywords name="Keywords3">#mbmaprep a2units abs acos activateaf addoffset addzone asin assignchannels assignenginebycode assignengines assignoutaqb assignoutgpout assignoutpegpulse assignoutpegstate assignpegoutbycode astx atan atan2 aunits avg axlistasmask baud bcopy ceil cerrf cfg coe2read coe2write coegetsize coeread coewrite commch commfl conid coordinatearrgate coordinatearrpulse copy cos crosscouplingcompensation ctime deactivateaf deadzone disable disableerrormap disablepeg dispch displayavailableaqbouts displayavailableassign displayavailablegpoutouts displayavailablepegpulseouts displayavailablepegstateouts displaycurrentassign distancearrgate distancearrpulse dpm_measurement dpm_measurement dpm_motion_status dshift dsign dstr eccloseport ecclrreg ecextin ecextout ecgetgrpind ecgetmain ecgetoffset ecgetoptgrp ecgetpid ecgetred ecgetreg ecgetrev ecgetslave ecgetslaves ecgetsn ecgetstate ecgetvid ecgrpinfo echo ecin ecout ecrepair ecrescan ecrescue ecsavecfg ecsavedcnf ecunmap ecunmapin ecunmapout edge enable enableerrormap1d enableerrormap2d enableerrormap3d enablepeg errf errormap1d errormap2d errormap3d2 errormap3d3 errormap3d5 errormap3da errormapa1d errormapa2d errormapn1d errormapn2d errormapn3d2 errormapn3d3 errormapn3d5 errormapn3da errormapoff errormapon errormaprep errorunmap exp extfac extrapulsesperiod extrapulsesqty faults fe fill fixeddistpulse floor foedownload foeupload followch g_01wcs...g_12wcs gateoffdelay gateondelay gateway getcondition getconf getleftlimit getmargin getpulsecounter getpulsecounts getrightlimit getsp getspa getsystemdelay getvar gpexl gspexl gufac hypot iena imask init inrange internalposresolution intgr isena lag laserdisable laserenable laserenabled lcdc lcdelayget lcdelayset lcfixeddist lcfixedint lcfrq lcmodulation lcoutputget lcoutputset lcrandomdist lcsignalget lcsignalset lcstop lctfreq lctickle lctwidth lczone lczoneget lczoneset ldexp log log10 map map2 map2b map2n map2nb map2ns map2s mapb mapn mapnb mapns maps match matrixadd matrixdiv matrixident matrixinv matrixmul matrixmulew matrixmulsc matrixsub matrixtrans max maxi mbclear mbclose mberr mbgethandle mbopen mbreadcoil mbreaddin mbreadhreg mbreadireg mbunmap mbwritecoil mbwritehreg mduration min mini motionaxes multiaxwinsize numtostr operationmode pathcalcmethod pdesc pdoext piercepulsesnum piercepulseswidth pn pname positions posresolution pow poweranalogout poweraoutval powerdigitalout powerpwmburst powerpwmout pulsedelay pwmactive pwmburstready pwmdutycycle pwmfrequency pwmpulsewidth rand roll round s_flags s_setup sat segmentgate segmentpulse setaxes setcondition setconf setconfigout setcustomposcalc setcustomvelcalc setcustomvelvar setcustomzone setextclocksync setincrementalpeg setmargins setmechplatformaxes setmotionaxes setpulsedelay setrandompeg setsafetymasks setsp setstatedelay setsystemdelay setvar setzone setzone1d setzone2d setzone3d setzonedualcarriage sign sin sizeof slaff slchall slcnp slcoffs slcorg slcprd slcrout slcrout sldra sldraif sldrx slfrcd slgcaxn slhrout slp2rout slpai slpap slpdi slpdp slpki slpkiif slpkisf slpkitf slpkp slpkpif slpkpsf slpkptf slpli slprout slsdz slski slskp slsmc slsout slsrl slsthall sltfwid slvai slvap slvb0dd slvb0df slvb0nd slvb0nf slvdi slvdp slvli slvnatt slvnfrq slvnwid slvrat slvrout slvsof slvsofd sn sqrt ss1reset static stop str strtonum subnet sysinfo szonesdis szonesen tan tcpip tcpip2 tcpport tickle tickleactive ticklefrequency ticklepulsewidth udpport userpos vr xarrsize xsegamax xsegamin xsegrmax xsegrmin</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00AA00" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="EE82EE" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontStyle="7" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="A01446" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
